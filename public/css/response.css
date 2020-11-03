@@ -1,0 +1,221 @@
+.cooperate-img-phone {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .text-content {
+    padding: 0 14px;
+  }
+  #hswd .content {
+    margin: 20px auto 50px;
+  }
+  #hswd .wrap {
+    margin-top: 60px;
+  }
+  #chinses {
+    padding-bottom: 0;
+  }
+  #chinses .f8 {
+    padding: 0;
+  }
+  #chinses .yuwenbg {
+    background-color: #fff;
+    height: 220px;
+  }
+  #chinses .yuwenbg .wrap {
+    position: static;
+    left: 0;
+    bottom: 0;
+    margin-left: 0px;
+    margin-top: 0;
+    height: 220px;
+  }
+  #chinses .wrap {
+    margin-top: 30px;
+  }
+  #chinses .content {
+    margin: 20px auto 20px;
+  }
+  #maths .wrap {
+    margin-top: 40px;
+  }
+  #maths .content {
+    margin: 20px auto 50px;
+  }
+  #maths .ad {
+    height: auto;
+    font-size: 24px;
+    line-height: 60px;
+    padding: 10px;
+  }
+  #maths .ad .wrap {
+    margin-top: 0;
+  }
+  #maths .ad .zixun {
+    margin-left: 0;
+  }
+  #english .wrap {
+    margin-top: 60px;
+  }
+  #english .content {
+    margin: 20px auto 50px;
+  }
+  #support .wrap {
+    margin-top: 70px;
+  }
+  #support ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 20px auto 50px;
+  }
+  #support ul>li {
+    width: 165px;
+    margin: 0;
+    float: none;
+    margin-bottom: 1.2rem;
+  }
+  #am .wrap {
+    margin-top: 40px;
+  }
+  #am .content {
+    margin: 20px auto 50px;
+  }
+  #am .c4 {
+    height: auto;
+    background: url(../img/img7.png) repeat 0 0;
+  }
+  #cooperation .wrap {
+    margin-top: 70px;
+  }
+  #cooperation .cooperate-img-pc {
+    display: none;
+  }
+  #cooperation .cooperate-img-phone {
+    display: block;
+    padding: 0 15px;
+  }
+  #cooperation .cooperate-img-phone img {
+    /*height: 140px;*/
+    margin-bottom: 8px;
+  }
+  #cooperation .content {
+    margin: 20px auto 30px;
+  }
+  #contact .daabe {
+    margin-top: 40px;
+  }
+  #contact .wrap {
+    margin: 40px auto 0;
+  }
+  #contact .address {
+    font-size: 18px;
+    margin: 30px 14px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #contact .address div {
+    padding: 0;
+  }
+  #contact .address .addr {
+    margin-bottom: 10px;
+  }
+  #contact .address .addr::after {
+    display: none;
+  }
+  #onetoone .c4 ul {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5px;
+  }
+  #onetoone>.fff>.wrap {
+    margin-top: 70px;
+  }
+  #onetoone .c4 ul li {
+    margin: 8px 0;
+  }
+  #onetoone .c4 dl dd p {
+    margin: 0;
+    padding: 0 20px;
+  }
+  #onetoone .c4 h3 {
+    margin: 20px 0;
+    text-align: left;
+  }
+  #onetoone .c4 {
+    margin-top: 20px;
+  }
+  #onetoone .wrap dt {
+    display: none;
+  }
+  #onetoone .c4 dl dd {
+    width: auto;
+  }
+  .logo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 8px;
+    margin-bottom: 0;
+  }
+  .logo span {
+    font-size: 16px;
+  }
+  .logo .logo-warp {
+    width: 50%;
+  }
+  .logo .logo-warp img {
+    width: 80%;
+  }
+  .logo .phone-warp {
+    background-size: contain;
+    height: 28px;
+    line-height: 28px;
+    background-position: 8px 0;
+  }
+  .zxkc {
+    height: 16px;
+    width: 85px;
+    line-height: 16px;
+    margin-left: -40px;
+    font-size: 8px;
+    bottom: 10px;
+  }
+  .swiper-button-next, .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    width: 13px;
+    height: 22px;
+    margin-top: -10px;
+    z-index: 10;
+    cursor: pointer;
+    background-size: 13px 22px;
+    background-position: center;
+    background-repeat: no-repeat
+  }
+  .swiper-pagination-bullets{
+    display: none;
+  }
+
+  .title h2 {
+    background-size: 99%;
+  }
+
+  #contact {
+    margin-bottom: 70px;
+  }
+
+  .swiper a.zixun {
+    display: none;
+  }
+
+}
